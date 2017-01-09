@@ -74,8 +74,6 @@ return text
 end
 function get_user(user_id)
 function dl_username(arg, data)
-username = data.username
-vardump(data)
 db:hset('bot:username',data.id_,data.username_)
 end
  tdcli_function ({
